@@ -1,0 +1,76 @@
+@import './styles/flex.css';
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 100px 200px;
+}
+
+div,
+p {
+  box-sizing: border-box;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.d-none {
+  display: none;
+}
+
+.d-block {
+  display: block;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mx-10 {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.f-14 {
+  font-size: 14px;
+}
+
+.f-18 {
+  font-size: 18px;
+}
+
+.text-line-overflow-1 {
+  overflow: hidden;
+  display: -webkit-box;
+  word-break: break-all;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+
+.vertical-middle {
+  vertical-align: middle;
+}

@@ -1,0 +1,15 @@
+.product {
+  border: 1px solid #e2e2e2;
+  width: 220px;
+  padding: 10px;
+}
+
+.product__img {
+  width: 200px;
+  height: 200px;
+  background-color: #e2e2e2;
+}
+
+.product-name {
+  width: 54px;
+}

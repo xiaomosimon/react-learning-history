@@ -1,0 +1,12 @@
+.shopping-cart__button {
+  width: 60px;
+}
+
+.shopping-cart-popup {
+  top: 30px;
+  right: 0;
+  border: 1px solid #e2e2e2;
+  width: 240px;
+  background-color: #fff;
+  padding: 10px;
+}
